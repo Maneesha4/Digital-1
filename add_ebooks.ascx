@@ -5,7 +5,7 @@
 <p>
     &nbsp;</p>
 &nbsp;&nbsp;
-<asp:Label ID="Label8" runat="server" Text="Category"></asp:Label>
+<asp:Label ID="Label8" runat="server" Text="Select Category"></asp:Label>
 &nbsp;&nbsp;
 <asp:DropDownList ID="DropDownList1" runat="server" 
     onselectedindexchanged="DropDownList1_SelectedIndexChanged">
@@ -18,12 +18,12 @@
 <br />
 <br />
 <br />
-<asp:Label ID="Label3" runat="server" Text="Author"></asp:Label>
+<asp:Label ID="Label3" runat="server" Text="Author of Book"></asp:Label>
 &nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
 <p>
     &nbsp;</p>
-<asp:Label ID="Label4" runat="server" Text="Publisher"></asp:Label>
+<asp:Label ID="Label4" runat="server" Text="Publisher of Book"></asp:Label>
 &nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
 <p>

@@ -25,7 +25,7 @@ public partial class add_ebooks : System.Web.UI.UserControl
             dbconnection db1 = new dbconnection();
             cmd.CommandText = "select distinct stream from tb_course";
             SqlDataReader dr1 = db1.executeread(cmd);
-            DropDownList1.Items.Add("--Select--");
+            DropDownList1.Items.Add("--Select Department--");
             while (dr1.Read())
             {
                 String s = dr1.GetString(0);
